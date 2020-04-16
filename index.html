@@ -1,22 +1,161 @@
 <!doctype html>
+<!-- Nick Weidner -->
+<!-- Version 2.0 -->
+<!-- Dots for push update bug ....... -->
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146603293-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-146603293-1');
+    </script>
+    <!-- End Google Analytics -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+    
+    <!-- Font Awesome Styles-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+	
+    <title>Nick Weinder</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  
+    <div id="container-nz">
+      <div class="nzbg"></div>
+      <div class="nzname"><h1>NICK</hi><h1>WEIDNER</hi></div>
+      <div class="nzme"></div>
+      <div id="scroll-arrow"><span></span></div>
+      <!-- <img class="object-fit_cover" src='assets/nz_just_bg.jpg' /> -->
+      <!-- <div class="slide11 one"></div> -->
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="nick-desc">
+              <h1>Nick Weidner</h1>
+              <h4>PhD Student</h4>
+              <h5>Texas A&M University</h5>
+              <p>Currently pursuing a PhD in Computer Science at <a href="http://www.tamu.edu">Texas A&M University</a>, I am a member of the TAMU Computer Graphics Lab working under <a href="http://faculty.cs.tamu.edu/sueda/">Dr. Shinjiro Sueda</a> on physical simulation and computation fabrication. Before starting my PhD I recieved a Masters degree from the <a href="http://www.sc.edu">University of South Carolina</a> working under <a href="https://cse.sc.edu/~yiannisr/">Dr. Ioannis Rekleitis</a> in the Autonomous Field Robotics Lab. I also received a BS in Computer Science and Math from the University of South Carolina in 2016.   </p>
+            </div>
+        </div>
+        
+      </div>
+      <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <h5 class="card-header" role="tab" id="heading-publications">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-publications" aria-expanded="true" aria-controls="collapse-publications" class="d-block collapse-header">
+                Publications
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+          <div id="collapse-publications" class="collapse show" aria-labelledby="heading-publications">
+              <div class="card-body">
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/redmax.jpg">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="http://faculty.cs.tamu.edu/sueda/projects/redmax/" class="bib-title-a">REDMAX: Efficient & Flexible Approach for Articulated Dynamics</a></span><br><span><a href="http://www.yingwang.io/" class="bib-author">Ying Wang</a></span>, <span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://www.linkedin.com/in/baxter-margareta/" class="bib-author">Margaret A Baxter</a></span>, <span><a href="https://www.linkedin.com/in/yura-hwang-a16288180/" class="bib-author">Yura Hwang</a></span>, <span><a href="http://dannykaufman.io/" class="bib-author">Danny M. Kaufman</a></span>, and <span><a href="http://faculty.cs.tamu.edu/sueda/" class="bib-author">Shinjiro Sueda</a></span><br><I>ACM Transaction on Graphics,</I> 38 (4) 104:1-104:10 (SIGGRAPH), 2019.
+                    </div>
+                  </div>
+                  
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/THROW_0089.jpg">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="http://faculty.cs.tamu.edu/sueda/projects/eol-cloth/" class="bib-title-a">Eulerian-on-Lagrangian Cloth Simulation</a></span><br><span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://www.linkedin.com/in/kyle-piddington-5870b4106/" class="bib-author">Kyle Peddington</a></span>, <span ><a href="http://diwlevin.webfactional.com/researchdb/" class="bib-author">David I.W. Levin</a></span>, and <span><a href="http://faculty.cs.tamu.edu/sueda/" class="bib-author">Shinjiro Sueda</a></span><br><I>ACM Transaction on Graphics,</I> 37 (4) 50:1-50:11 (SIGGRAPH), 2018.
+                    </div>
+                  </div>
+                  
+                  <div class="row pubrow">
+                    <div class="col-sm-3">
+                        <img class="rep-image rounded float-left" src="assets/cave.png">
+                    </div>
+                    <div class="col-sm-9 my-auto">
+                        <span class="bib-title"><a href="https://afrl.cse.sc.edu/afrl/research/standard/CaveMapping/" class="bib-title-a">Underwater cave mapping using stereo vision</a></span><br><span><a href="http://www.weidnern.github.io" class="bib-author">Nicholas Weidner</a></span>, <span><a href="https://afrl.cse.sc.edu/sharmin/home/" class="bib-author">Sharmin Rahman</a></span>, <span ><a href="https://sites.google.com/site/albertoquattrinili/" class="bib-author">Alberto Quattrini Li</a></span>, and <span><a href="https://cse.sc.edu/~yiannisr/" class="bib-author">Ioannis Rekleitis</a></span><br><I>IEEE International Conference on Robotics and Automation,</I> 2017.
+                    </div>
+                  </div>
+                  
+              </div>
+          </div>
+        </div>
+        
+        <div class="card">
+            <h5 class="card-header" role="tab" id="heading-CV">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-CV" aria-expanded="true" aria-controls="collapse-CV" class="d-block collapse-header">
+                CV
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-CV" class="collapse" role="tabpanel" aria-labelledby="heading-CV">
+                <div class="card-block">
+                    <iframe src="https://drive.google.com/file/d/1cm2leKg2FxGxv8JB4f0M11BXpUE8uV70/preview" width="100%" height="480" align="center"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h5 class="card-header" role="tab" id="heading-DR">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-DR" aria-expanded="true" aria-controls="collapse-DR" class="d-block collapse-header">
+                Demo Reel
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-DR" class="collapse" role="tabpanel" aria-labelledby="heading-DR">
+                <div class="card-block">
+                    <div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1cm2leKg2FxGxv8JB4f0M11BXpUE8uV70/preview" allowfullscreen></iframe>
+					</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Template for another tab -->
+        <!-- <div class="card">
+            <h5 class="card-header" role="tab" id="heading-CV">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse-CV" aria-expanded="true" aria-controls="collapse-CV" class="d-block collapse-header">
+                Publications
+                <i class="fa fa-chevron-down pull-right collapse-icon"></i>
+            </a>
+          </h5>
+            <div id="collapse-CV" class="collapse" role="tabpanel" aria-labelledby="heading-CV">
+                <div class="card-block">
+                    card block
+                </div>
+            </div>
+        </div> -->
+        
+      </div>
+    </div>
+    
+    </div class="container">
+        
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<!--GSAP Animation JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<!-- Custom scripts -->
+    <script src="js/index.js"></script>
   </body>
 </html>
