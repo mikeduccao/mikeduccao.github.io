@@ -1,13 +1,27 @@
 # Phamsgiving Dinner
-# Phamsgiving Dinner
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/cayman/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-cayman.svg)](https://badge.fury.io/rb/jekyll-theme-cayman)
+## MENU
 
-*Cayman is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/cayman), or even [use it today](#usage).*
+## PHAMILY TREE
 
-![Thumbnail of Cayman](thumbnail.png)
+### 1
+Carmela Delacruz
 
-## Usage
+### 2
+Larissa Ramilo
+
+Michael Cao
+
+#### 3
+Kelly Duong
+
+#### 4
+Rachel Fatheree
+
+Andy Bui
+
+Clarence Manglal-lal
+
 
 To use the Cayman theme:
 
